@@ -647,19 +647,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- specific for ogm -->
-		<!-- temporary until SDN 4.1 brings this in transitively -->
-		<dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j-ogm-core</artifactId>
-		</dependency>
-
-		<!-- temporary until SDN 4.1 brings this in transitively -->
-		<dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j-ogm-api</artifactId>
-		</dependency>
-
 		<!-- the sdn driver we will use -->
 		<dependency>
 			<groupId>org.neo4j</groupId>
